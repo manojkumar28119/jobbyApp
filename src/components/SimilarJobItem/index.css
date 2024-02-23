@@ -1,0 +1,47 @@
+.similar-job-card {
+  background-color: #202020;
+  padding: 30px;
+  border-radius: 10px;
+  width: 30%;
+  font-family: 'Roboto';
+  margin-bottom: 30px;
+  margin-right: 30px;
+  color: #f1f5f9;
+  list-style: none;
+}
+@media screen and (max-width: 768px) {
+  .similar-job-card {
+    width: 100%;
+  }
+}
+.logo-nd-role-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.title-role {
+  font-size: 18px;
+  margin: 0px;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+.company-rating {
+  color: #ffffff;
+}
+.des-heading {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.similar-job-description {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  color: #f1f5f9;
+}
+.similar-jobs-loca-type-card {
+  display: flex;
+  align-items: center;
+}
